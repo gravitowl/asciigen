@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>ASCII Art Generator</title>
+</head>
+<body>
+  <div class="content">
+    <div class="container">
+      <div class="title">
+        ASCII Art Generator
+      </div>
+      <div class="inputs">
+        <div class="imgUploadStuff">
+          <input type="file" id="imageUpload" accept="image/*">
+          <button id="imageUploadBtn">Upload Image</button>
+          <span id="uploadedImage">No image uploaded.</span>
+        </div>
+        <button id="convert">Convert!</button>
+      </div>
+      <div class="previewImages">
+        <label for="previewImageNormal">Uploaded Image:</label>
+        <img id="previewImageNormal" src="" alt="">
+        <label for="previewImageAscii">ASCII Image:</label>
+        <p id="previewImageAscii"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
