@@ -50,7 +50,6 @@ const convertImageIntoAscii = (imageCode) => {
       let c = density.charAt(avg / (255 / density.length));
       if (c == " ") {
         c = "\u00A0";
-        console.log("Hi");
       }
       art += c;
       if ((i / 4 + 1) % imageData.width == 0) {
